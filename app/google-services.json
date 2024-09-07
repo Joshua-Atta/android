@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289450115405",
+    "project_id": "mobibank-a7c20",
+    "storage_bucket": "mobibank-a7c20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289450115405:android:51de5bbead31c8fbd57704",
+        "android_client_info": {
+          "package_name": "com.example.mobibank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPnGVsruehABp5RFKIAoj-PsvJ6nqFJ2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,162 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="#f0f0f0"
+    tools:context=".billpaymentActivity">
+
+    <!-- Title -->
+
+    <!-- Main Content: Options for bill payments -->
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="347dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Select Bill to Pay"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/billlogo"
+        android:layout_width="347dp"
+        android:layout_height="151dp"
+        android:layout_below="@+id/titleText"
+        android:layout_marginTop="25dp"
+
+        app:srcCompat="@drawable/logothrough" />
+
+    <LinearLayout
+        android:id="@+id/optionsLayout"
+        android:layout_width="346dp"
+        android:layout_height="359dp"
+        android:layout_below="@+id/billlogo"
+        android:layout_marginTop="61dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Electricity Bill Option -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Water Bill Option -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="316dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/baseline_water_drop_24" />
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="15dp"
+                    android:onClick="onWaterBillClick"
+                    android:text="Water Bill"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Internet Charges Option -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="342dp"
+                android:layout_height="95dp"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="14dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/baseline_signal_wifi_statusbar_connected_no_internet_4_24" />
+
+                <TextView
+                    android:layout_width="204dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="15dp"
+                    android:onClick="onInternetChargesClick"
+                    android:text="Internet Charges"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="121dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_electrical_services_24" />
+
+            <TextView
+
+                android:layout_width="228dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="15dp"
+                android:onClick="onElectricityBillClick"
+                android:text="Electricity Bill"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="149dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/optionsLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="111dp"
+        android:gravity="center"
+        android:text="BACK" />
+
+</RelativeLayout>

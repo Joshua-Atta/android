@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:id="@+id/main"
+    android:background="@color/white">
+
+    <!-- Horizontal layout to hold logo and title -->
+    <LinearLayout
+        android:id="@+id/logoTitleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+
+        <!-- Bank Logo ImageView -->
+        <ImageView
+            android:id="@+id/bankLogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logothrough"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="Bank Logo" />
+
+        <!-- Title for the Bank Policies Page -->
+        <TextView
+            android:id="@+id/policiesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUR POLICY"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/newskyblue" />
+    </LinearLayout>
+
+    <!-- Scrollable content for the policies -->
+     <ScrollView
+        android:id="@+id/scrollViewPolicies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logoTitleLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Policies TextView -->
+            <TextView
+                android:id="@+id/policiesContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bank_policies"
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

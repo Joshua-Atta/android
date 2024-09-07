@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MoBIBANK</string>
+    <string name="bank_policies">
+       <b> 1. INTRODUCTION</b>
+        \n\n
+
+This Privacy Policy explains how we collect, use, disclose and safeguard your data/information when you use MoBIBANK Mobile Application. Please read this Privacy Policy carefully.
+
+We are not responsible for any Personal data collected and used by any third-party online/mobile store from which you install the GCB mobile application.
+
+Using the Application means that the User agrees with the terms and conditions of this Policy including conditions for collecting and processing information from the User's device.
+\n\n
+
+
+<b>NB: IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS PRIVACY POLICY, YOU MAY ACCESS THE APPLICATION. HOWEVER, YOU SHALL ASSUME SOLE RESPONSIBILITY FOR ANY RISK AND FINANCIAL LOSS WHICH MAY BE OCCASIONED TO YOU AS A RESULT OF ANY FRAUDULENT ACTIVITY ON YOUR ACCOUNT.</b>
+
+\n\n
+<b>2. DEFINTIONS</b>
+        \n\n
+
+<b>“Act 843”</b> means the Data Protection Act, 2012
+\n\n
+
+<b>“Affiliate” </b>means any entity or person that directly or indirectly, through one or more intermediaries, controls or is controlled by, or is under common control, with the person specified.
+\n\n
+<b>“App”</b> or” Application” means GCB Mobile Application.
+ \n\n
+
+<b>“Last updated”</b> means the last date on which this Policy was revised.
+\n\n
+<b>“Personal data/information”</b> means any information relating to an identified or identifiable natural person An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as name, date of birth, phone number, an identification number, IP address, geolocation, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural living person.
+\n\n
+<b>“Services”</b> means the services provided by MoBIBank PLC to customers subscribed to the MoBIBANK Mobile Application such as bill payments, transaction alerts, account balances, among others.
+
+<b>“Software Development Kit (SDK)”</b> means lines of code. SDK is a downloadable software package that contains the tools required to build a mobile application for iOS and android devices.
+
+<b>“Third Party”</b> is any party other than you, us or our affiliates.
+
+<b>“User/You”</b> means the customer who is subscribed to MoBIBANK Mobile App
+
+<b>“We”</b> means MoBIBANK Bank PLC
+
+
+    </string>
+
+
+    <string name="our_mission">Our Mission</string>
+    <string name="our_vision">Vision</string>
+    <string name="talk_to_us_today">Talk to Us Today</string>
+    <string name="email_us">EMAIL US</string>
+
+
+    <string-array name="titles_array">
+        <item>Mr.</item>
+        <item>Ms.</item>
+        <item>Mrs.</item>
+        <item>Dr.</item>
+    </string-array>
+
+
+</resources>

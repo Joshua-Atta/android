@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customersupportActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="19dp">
+
+        <!-- Placeholder for the text on top -->
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="2663dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="20dp"
+            android:text="Contact Us"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Centered content below the top text -->
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_marginTop="60dp"
+            android:layout_width="369dp"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_below="@id/topText">
+
+            <!-- Our Mission Section -->
+            <TextView
+                android:id="@+id/missionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our Mission"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/missionContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our mission is to provide the best banking experience to our customers."
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+
+            <!-- Vision Section -->
+            <TextView
+                android:id="@+id/visionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vision"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/visionContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our vision is to lead the way in financial services and set new standards for excellence."
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+
+            <!-- Talk to Us Section -->
+            <TextView
+                android:id="@+id/talkToUsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talk to Us Today"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Email Us Button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/shape"
+                android:clickable="true"
+                android:onClick="sendEmail">
+
+                <ImageView
+                    android:id="@+id/emailIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/baseline_email_24"
+                    android:contentDescription="Email Us"
+                    android:layout_marginEnd="12dp" />
+
+                <TextView
+                    android:id="@+id/emailText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMAIL US"
+                    android:textSize="16sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
